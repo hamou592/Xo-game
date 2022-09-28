@@ -1,0 +1,39 @@
+.game{
+    width: 700px;/*this is controling the size of the container*/
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+}
+body{
+    background: rgba(20, 58, 70, 0.842);
+}
+.title{
+    background: #f25;
+    width: 662.5px;
+    height: 40px;
+    padding: 5px 4px;    
+    margin: 5px 0px;
+    font-size: 37px;/*to chane the size of the text*/
+}
+
+span{
+    color: #bde60af8;
+}
+.square{
+    width: 220px;
+    height: 220px;
+    background: #f25;
+    float: left;/*to make the boxes one atside the other*/
+    margin: 2px;
+    font-size: 159px;
+    text-align: center;
+}
+.square:hover{
+    background: rgba(62, 166, 197, 0.842);
+}
+
+p{
+    font-size: 30px;
+}
